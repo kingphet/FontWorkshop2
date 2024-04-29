@@ -5,7 +5,7 @@ export default function Member() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/api/users')
+    axios.get('https://apiworkshop2.onrender.com/api/users')
       .then(response => {
         setUsers(response.data);
       })

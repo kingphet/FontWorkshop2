@@ -10,7 +10,7 @@ export default function Login() {
 
   const SubmitLogin = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:3000/api/login",data)
+    axios.post("https://apiworkshop2.onrender.com/api/login",data)
     .then(res => {
         alert(res.data)
     })
