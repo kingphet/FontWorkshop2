@@ -15,7 +15,7 @@ export default function Login() {
         alert(res.data)
     })
     .catch(err => {
-        console.log(err)
+        // console.log(err)
         alert("you can't see me")
     })
   };
